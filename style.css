@@ -1,0 +1,232 @@
+* {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+        font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+        width: 100%;
+        height: 610px;
+        display: flex;
+}
+
+.container1 {
+        width: 55%;
+        height: 675px;
+        background-color: rgb(51, 64, 28);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+}
+
+.page1 {
+        width: 90%;
+        height: 650px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+
+.navbar {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 16px;
+        border-bottom: 1px solid white;
+}
+
+.design {
+        width: 100%;
+        height: 320px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid white;
+}
+
+.design h1 {
+        width: 100%;
+        font-size: 160px;
+}
+
+.img-section {
+        width: 100%;
+        height: 260px;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+}
+
+.img-section1 {
+        width: 60%;
+        height: 220px;
+        padding-top: 24px;
+}
+
+.img1 {
+        width: 360px;
+        height: 200px;
+}
+
+.img-section2 {
+        width: 40%;
+        height: 300px;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 246px;
+}
+
+.img-section2 p {
+        padding-left: 75px;
+}
+
+.img2 {
+        width: 240px;
+        height: 80px;
+}
+
+.container2 {
+        width: 45%;
+        height: 620px;
+}
+
+.img3 {
+        width: 100%;
+        height: 390px;
+}
+
+.img4 {
+        position: relative;
+        bottom: 370px;
+        left: 500px;
+}
+
+.page2 {
+        width: 90%;
+        height: 255px;
+        display: flex;
+        align-items: start;
+        justify-content: space-around;
+        flex-direction: column;
+        padding-left: 20px;
+        background-color: white;
+}
+
+.page2 button {
+        width: 150px;
+        height: 35px;
+        border-radius: 20px;
+        background-color: white;
+        border: 1px solid black;
+}
+
+.page9 {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 25px;
+}
+
+.house {
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+}
+
+.house img {
+        height: 30px;
+}
+
+hr {
+        border: 1px solid black;
+}
+
+.boscombe {
+        width: 150px;
+        height: 35px;
+        border-right: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+}
+
+@media (max-width:768px) {
+        .container {
+                width: 100%;
+                height: auto;
+        }
+
+        .container1 {
+                width: 100%;
+        }
+
+        .design {
+                width: 100%;
+        }
+
+        .design h1 {
+                font-size: 80px;
+                padding-right: 30px;
+        }
+
+        .img-section {
+                width: 100%;
+                display: flex;
+        }
+
+        .img-section1 {
+                width: 60%;
+        }
+
+        .img-section2 {
+                width: 40%;
+        }
+
+        .img1 {
+                width: 200px;
+        }
+
+        .img2 {
+                width: 170px;
+                padding-left: 30px;
+                padding-bottom: 10px;
+        }
+
+        .container2 {
+                width: 100%;
+        }
+
+        .img4 {
+                height: 35px;
+                position: relative;
+                bottom: 380px;
+                left: 330px;
+        }
+
+        .page9 {
+                width: 100%;
+        }
+
+        .boscombe {
+                font-size: 15px;
+        }
+
+        .page2 {
+                width: 100%;
+                padding-bottom: 50px;
+        }
+
+        .page2 p {
+                font-size: 14.5px;
+        }
+}
